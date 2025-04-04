@@ -70,3 +70,36 @@ header{
     padding-left: 10px;
     
 }
+main{
+    background-color:#211348 ;
+    padding: 20px;
+}
+#main-section{
+    width: 1100px;
+   
+    margin: 0px auto;
+    padding: 50px 0px;
+}
+#Latesr-video-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Latest-video-text{
+    color: rgb(76, 175, 117);
+    font-size: 20px;
+    font-weight: bold;
+}
+.Latest-pages{
+    color: rgb(76, 175, 117);
+}
+.Latest-pages span{
+    color: black;
+    background-color: rgb(247, 239, 239);
+    padding: 5px;
+    border: 1px solid rgb(235, 118, 118);
+    border-radius: 4px;
+    margin: 0px 10px;
+    cursor: pointer;
+    
+}
