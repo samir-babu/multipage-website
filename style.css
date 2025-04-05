@@ -134,3 +134,34 @@ main{
     transform: scale(1.1);
     border-radius: 10px;
 }
+/* previous-next arrow */
+#previous-next-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+#previous-next-parent a{
+    text-decoration: none;
+    color: white;
+}
+#previous-next-parent h3 a{
+    background-color:rgb(7, 121, 7) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#previous-next-parent h3 a:hover{
+    background-color: rgb(15, 70, 15);
+}
+#previous-next-parent div a{
+      margin: 0px 10px;
+      background-color: antiquewhite;
+      color: black;
+      padding:5px ;
+      border-radius: 3px;
+      border: 1px solid rgb(233, 96, 96);
+}
+#previous-next-parent div a:first-child{
+    background-color: rgb(7, 121, 7) ;
+}
