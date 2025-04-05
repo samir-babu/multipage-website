@@ -103,3 +103,34 @@ main{
     cursor: pointer;
     
 }
+/* item area */
+#single-item-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap:50px;
+    grid-column-gap:20px;
+    margin-top: 30px;
+    
+
+}
+.single-item{
+    height: 250px;
+    border: 2px solid gray;
+}
+.single-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.single-item div{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 2px;
+}
+.single-item:hover img{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
